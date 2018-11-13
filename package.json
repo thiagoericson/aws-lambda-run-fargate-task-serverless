@@ -1,0 +1,21 @@
+{
+    "name": "boilerplate-lambda",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com:veiadigital/lambda-ecs-trigger-serverless.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/veiadigital/lambda-ecs-trigger-serverless#readme",
+    "dependencies": {
+      "serverless": "^1.27.3",
+      "serverless-python-requirements": "^4.0.3"
+    }
+}

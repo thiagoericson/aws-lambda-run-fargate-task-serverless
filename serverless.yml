@@ -1,0 +1,25 @@
+service: boilerplate-lambda
+
+provider:
+  name: aws
+  runtime: python3.6
+  stage: dev
+  region: us-east-1
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - ecs:RunTask
+        - iam:PassRole
+      Resource:
+        - "*"
+
+functions:
+  boilerplate_lambda_trigger:
+    handler: handler.handler
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
