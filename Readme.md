@@ -1,4 +1,4 @@
-# Boilerplate AWS Lambda - ECS Trigger - via Serverless Framework
+# AWS Lambda - ECS Trigger - via Serverless Framework
 
 ## Description
 
